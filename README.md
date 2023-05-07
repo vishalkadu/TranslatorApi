@@ -6,11 +6,21 @@
 
 1. DOCKER:
 
+1.1 Pull from Docker-Hub 
+
+$docker pull imwish/translator_api
+
+$docker run -p 5000:5000 -it --name Translator-Api imwish/translator_api
+
+or
+
+1.2 Build
+
 clone this repository then switch to it.
 
 $docker build -t translator_api:v2 .
 
-$docker run -p 5000:5000 -it --name TranslatorApi translator_api:v2
+$docker run -p 5000:5000 -it --name Translator-Api translator_api:v2
 
 OR 
 
