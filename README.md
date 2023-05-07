@@ -46,6 +46,7 @@ http://127.0.0.1:5000/translate?language= #language_to_translate &filename= #pat
 
 
 127.0.0.1:5000
+
 here 127.0.0.1 is the loopback IP address, also known as localhost,
 URL used to access a web application running on the local machine at port 5000.
 you can modify/change it accordingly.
