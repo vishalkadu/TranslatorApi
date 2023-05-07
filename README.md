@@ -42,7 +42,7 @@ THEN
 ~Usage:
 
 
-http://127.0.0.1:5000/translate?language=<language>&filename=<path/to/file/inputfile.txt>
+//http://127.0.0.1:5000/translate?language=<language>&filename=<path/to/file/inputfile.txt>
 
 127.0.0.1:5000
 here 127.0.0.1 is the loopback IP address, also known as localhost,
