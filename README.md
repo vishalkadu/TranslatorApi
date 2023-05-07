@@ -22,6 +22,7 @@ $pip install -r requirements.txt
 $python app.py
 
 2.1 Virtual ENViroment 
+
 Its good practice to use seprate vm for your project,
 
 $python3 -m venv translator_venv
