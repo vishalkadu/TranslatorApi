@@ -18,6 +18,7 @@ OR
 clone this repository then switch to it.
 
 $pip install -r requirements.txt
+
 $python app.py
 
 2.1 Virtual ENViroment 
@@ -26,7 +27,9 @@ Its good practice to use seprate vm for your project,
 $python3 -m venv translator_venv
 then,
 $source translator_venv/bin/activate
+
 $pip install -r requirements.txt
+
 $python app.py
 
 make sure you are in project directory.
@@ -55,5 +58,6 @@ http://127.0.0.1:5000/translate?language=french&filename=/home/wish/Documents/Do
 http://localhost:5000/translate?language=french&filename=/home/wish/Documents/Do-Translator-API/myfile.txt
 
 here language=french we specified language
+  
 here filename=/home/wish/Documents/Do-Translator-API/myfile.txt it is the file path we spacified.
 
