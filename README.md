@@ -25,7 +25,9 @@ $python app.py
 Its good practice to use seprate vm for your project,
 
 $python3 -m venv translator_venv
+
 then,
+
 $source translator_venv/bin/activate
 
 $pip install -r requirements.txt
@@ -49,6 +51,7 @@ you can modify/change it accordingly.
 
 Example :
 if you have created Docker container from Docker file 
+
 http://172.17.0.2:5000/translate?language=french&filename=/app/myfile.txt
 
 else 
